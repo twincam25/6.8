@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    top:50%;
+    background-color:#8a8888;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding: 5px;
+    min-width: 120px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  }
+
+  button:hover {
+    background-color:#c41821;
+    transition: 0.7s;
+}

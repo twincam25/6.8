@@ -1,0 +1,23 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border-color: #8a8888;
+    content: "\2714";
+    transition-duration: 0.5s;
+  }
+
+  .right:hover {
+    border-color: #c41821;
+    content: "\2714";
+  }

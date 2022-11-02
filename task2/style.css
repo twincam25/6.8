@@ -1,0 +1,19 @@
+p, code {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid #8a8888;;
+    border-right: 5px solid #8a8888;
+    transform: rotate(135deg);
+    margin: -15px 0 10px 20px;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+
+.arrow:hover {
+    border-color: #c41821;
+    content: "\2714";
+}
